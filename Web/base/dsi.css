@@ -1,0 +1,122 @@
+/* Inicio: Estilos Grid-View */
+
+* {
+	box-sizing: border-box;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Colunas Mobile (mobile first) */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    /* Margem no topo para inclusão de divs vazias (organizacão) */
+    margin-top: 4px;
+}
+
+/* Colunas Desktop (igual ou maior que 768px) */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Fim: Estilos Grid-View */
+
+/* Inicio: Estilos Extras (utilitários, labels, inputs etc) */
+
+label {
+    padding: 12px 12px 12px 12px; /* Top, Right, Botton, Left */
+    display: inline-block;
+}
+
+input:not([type='checkbox']):not([type='submit']), select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type='submit'], button {
+    width: 100%;
+    /* RGB (Red, Green, Blue) */
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 6px 0 0 6px ;
+}
+
+input[type='submit']:hover, button:hover {
+    background-color: #45a049;
+}
+  
+@media only screen and (min-width: 768px) {
+    input[type='submit'], button {
+        width: auto;
+        float: right;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.row-odd {
+    background-color: rgb(223, 223, 223);
+}
+
+.row-pair {
+    background-color: rgb(238, 238, 238);
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.cancel {
+    background-color: red;
+}
+
+.cancel:hover {
+    background-color: rgb(200, 0, 0);
+}
+
+.warning {
+    background-color: orangered;
+}
+
+.warning:hover {
+    background-color: rgb(172, 46, 0);
+}
+
+/* Fim: Estilos Extras (utilitários, labels, inputs etc) */
