@@ -1,4 +1,4 @@
-<img scr="https://logoeps.com/wp-content/uploads/2013/06/unip-vector-logo.png"/>
+<div align="center"><img src="https://logoeps.com/wp-content/uploads/2013/06/unip-vector-logo.png"  alt="logo-unip"/></div>
 
 # Sistema de Gerenciamento de frotas (TCC Universidade Paulista)
 Projeto feito na Unip para o tcc do cuso de Análise e Desenvolvimento de Sistemas, toda documentação e regra de negócio, criação e idealização de banco de dados ,api Rest e Spring Boot e site em bootstrap responsivo.
