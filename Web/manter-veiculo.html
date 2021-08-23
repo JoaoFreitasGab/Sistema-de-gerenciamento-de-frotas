@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <title>Frotch Gerenciamento de frotas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+
+    <!-- Arquivos de CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" title="1">
+	<link rel="alternate stylesheet" type="text/css" href="css/stylealt.css" title="2">
+	
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+    <script src="js/fonte2.0.js"></script>
+
+    <link rel="stylesheet" href="css/Layout_Pagina.css"> 
+	<link rel="stylesheet" href="css/SlideShow.css" type="text/css" media="all" />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/menudrop.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="base/dsi.css" />
+
+	</head>
+<body onload="inicializar()" onload="inicializa()">
+	<header>
+		
+		
+		<div class="container">
+			<!-- nav menu -->
+			<nav class="py-1 d-lg-flex">
+			<div id="logo" class="marginlogo">
+				<h1 ><a href="index.html" ><img src="img/car.png" class="logomargin"> Frotch </a></h1>
+			</div>	
+		</nav>
+			<!-- //nav menu -->
+		</div>
+</header>
+<!-- //header fim menu -->
+
+<!-- text  imagem de fundo Estilo Line 780-->
+	<section class="text2020 py-5" id="register">
+		<div class="container py-md-5 py-3 text-center">		
+			<div class="row">
+						<div class="col-md-6 padding">
+							<div class="oncoto">
+									<a style="color: #f1f1f1" href="seletor.html">Menu</a><a  style="color: #f1f1f1" href="veiculos.html"> / Lista de Veículos</a><a style="color: #f1f1f1" href=""> / Cadastro Veículo</a>
+								</div><br>					
+					 <h1 class="menumargin" style="color: #f1f1f1" class="center">Cadastro Veículo</h1>
+					 <div class="form-style-w3ls">
+					 	 <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Placa*</label>
+      					 </div>
+					          <input id="placa" type="text" placeholder="Digite a placa" required />
+					      <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Ano*</label>
+      					 </div>
+					          <input id="ano" type="text" placeholder="Digite o ano" required />   
+					           <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Marca*</label>
+      					 </div>
+					          <input id="marca" type="text" placeholder="Digite a marca" required />  
+					           <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Modelo*</label>
+      					 </div>    
+					          <input id="modelo" type="text" placeholder="Digite o modelo" required />
+					           <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Tipo*</label>
+      					 </div>
+										<select id="tipo">
+					            <option value="CARRO" selected>Carro</option> 
+					            <option value="MOTO">Moto</option>
+					            <option value="CAMINHAO">Camihão</option>
+					            <option value="ONIBUS">Ônibus</option>
+					          </select>
+					          <label style="color: #f1f1f1" for="inativo">Inativo?</label>
+					         
+					          <input id="inativo" type="checkbox" />
+					          
+					           <div class="col-1 labelcadastro">
+         					<label  style="color: #f1f1f1" for="nome">Imagem</label>
+      					 </div>
+					            <input id="imagem" type="text" placeholder="Digite a URL de uma imagem" />
+					           <button class="btn" type="button" onclick="salvarVeiculo()">Cadastrar</button>
+
+      				</div>	
+				</div>			
+				<script src="base/dsi.js"></script>
+                <script src="js/manter-veiculo.js"></script>
+			</div>
+		</div>		
+	</section>
+<!-- //text -->
+<!-- footer -->
+	<footer class="py-md-5 py-3">
+		<div class="container py-md-5 py-3">
+			<div class="row footer-grids">
+				<div class="col-lg-3 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
+					<h4 class="mb-4">Frotch</h4>
+					<p class="mb-3">Qualidade e satisfação é o que nos move.</p>
+					
+				</div>
+				<div class="col-lg-3 col-sm-6 mb-md-0 mb-sm-5 mb-4">
+					<h4 class="mb-4">Endereço</h4>
+					<p><span class="fa mr-2 fa-map-marker"></span>Av. Alberto Benassi, 200 - Parque das Laranjeiras Araraquara - SP</p>
+					<p class="phone py-2"><span class="fa mr-2 fa-phone"></span> +55(16)3336-1800 </p>
+				</div>
+				<div class="col-lg-2 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
+					<h4 class="mb-4">Links Rápidos</h4>
+					<ul>
+						<li><a href="index.hmtl#register">Registre-se Aqui </a></li>
+						<li><a href="index.html#contact">Contate-nos</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<h4 class="mb-4">Se Inscreva</h4>
+					<p class="mb-3">Receba notícias todo mês</p>
+					<form action="#" method="post" class="d-flex">
+						<input type="email" id="email" name="EMAIL" placeholder="Entre com seu E-Mail Aqui" required="">
+						<button type="submit" class="btn">Inscrever-se</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- //footer -->
+<!-- fabricante de produto shaushuahs-->
+
+	<div class="copyright">
+		<div class="container py-4">
+			<div class=" text-center">
+				<p>© 2019 Frotch Todos os Direitos Reservados | Feito por João Gabriel </a> </p>
+			</div>
+		</div>
+	</div>
+	<!-- //huashuash -->
+			
+	<!-- move top -->
+	<div class="move-top text-right">
+		<a href="#home" class="move-top"> 
+			<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+		</a>
+	</div>
+<!-- move top -->
+
+
+
+</body>
+</html>
