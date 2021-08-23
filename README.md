@@ -13,7 +13,7 @@ Projeto feito na Unip para o tcc do cuso de Análise e Desenvolvimento de Sistem
 <h2>Projeto Web</h2>
 <p>https://github.com/JoaoFreitasGab/Website-de-um-Sistema-de-gerenciamento-de-frotas/tree/main/Web</p>  
  
-<h2>Api Rest e banco de dados</h2>
+<h2>Api Rest e Banco de Dados</h2>
 <p>https://github.com/JoaoFreitasGab/Website-de-um-Sistema-de-gerenciamento-de-frotas/blob/main/API%20Rest.rar</p>  
   
 </div>
