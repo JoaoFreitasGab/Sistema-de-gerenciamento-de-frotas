@@ -4,4 +4,8 @@ Projeto feito na Unip para o tcc do cuso de Análise e Desenvolvimento de Sistem
 <div>
 <h2>Documentação</h2>
 <p>https://github.com/JoaoFreitasGab/Website-de-um-Sistema-de-gerenciamento-de-frotas/blob/main/PIM%20VERS%C3%83O%20FINAL%2012.pdf</p>
+
+<h2>Diagramas</h2>
+<p>https://github.com/JoaoFreitasGab/Website-de-um-Sistema-de-gerenciamento-de-frotas/tree/main/Pasta%20com%20toda%20documenta%C3%A7%C3%A3o</p>  
+  
 </div>
